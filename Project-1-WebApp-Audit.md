@@ -41,7 +41,7 @@ I first confirmed within the hosting control panel that **no active FTP user acc
 **Action on HSTS:**
 I requested that WPX enable HSTS. The support agent initially replied that HSTS was already enabled and provided a screenshot of the site's `.htaccess` file as evidence, which did contain the HSTS header rule.
 
-![Agent HTAccess Evidence](./images/agent-htaccess.jpg)
+![Agent HTAccess Evidence](./images/agent-htaccess.png)
 
 This created a critical discrepancy: the server's configuration file contained the rule, but external scanning tools proved the rule was not being applied in practice. Following a "trust, but verify" methodology, I initiated a second verification scan to gather definitive evidence.
 
