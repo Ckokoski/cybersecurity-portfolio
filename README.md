@@ -1,4 +1,5 @@
 Christopher Kokoski's Cybersecurity Portfolio
+
 My journey to becoming a penetration tester.
 This portfolio contains hands-on projects in vulnerability analysis, system hardening, and threat mitigation. I am building a foundation in defensive security (Blue Team) to become a more effective offensive operator (Red Teamer). This repository serves as a living document of my skills, methodologies, and progress.
 
