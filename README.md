@@ -11,7 +11,7 @@ Below is a collection of projects demonstrating my practical, hands-on cybersecu
 
 ### Defense (Blue Team) & System Hardening
 
-#### Project 1: Live Web Application Security Audit & Hardening
+#### [Project 1: Live Web Application Security Audit & Hardening](Project-1-Live-WebApp-Security-Audit.md)
 **Description:** Performed a full "Scan -> Remediate -> Verify" lifecycle audit on a live web server. Used Nmap and Qualys SSL Labs to identify vulnerabilities, analyzed results, and diagnosed a complex server misconfiguration that was not apparent to the hosting provider's support team.
 
 **Skills Demonstrated:**
@@ -22,7 +22,7 @@ Below is a collection of projects demonstrating my practical, hands-on cybersecu
 * Nmap
 * Qualys SSL Labs
 
-#### Project 2: Web Application Vulnerability Scan & Remediation
+#### [Project 2: Web Application Vulnerability Scan & Remediation](Project-2-WebApp-Vulnerability-Scan.md)
 **Description:** Conducted a dynamic application security test (DAST) using OWASP ZAP. Identified a missing Content Security Policy (CSP) header, troubleshooted WAF and plugin blocks, and remediated the finding by deploying a custom PHP snippet.
 
 **Skills Demonstrated:**
