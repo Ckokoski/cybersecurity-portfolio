@@ -22,6 +22,8 @@ The first phase focused on identifying potential attack vectors on the target ma
 * **Command:** `nmap -sV -p- 192.168.56.101`
 * **Key Finding:** The scan revealed numerous open ports. The most promising target for initial exploitation was the FTP service running on port 21, identified as `vsftpd 2.3.4`. This specific version is widely known to contain a backdoor vulnerability.
 
+![Nmap Reconnaissance Scan](./images/nmap-scan-before.jpg)
+
 ## Phase 2: Exploitation
 
 Based on the reconnaissance finding, the Metasploit Framework was used to exploit the `vsftpd 2.3.4` vulnerability.
@@ -43,6 +45,8 @@ After gaining initial access, the final phase was to confirm the level of access
 ## Final Outcome
 
 The penetration test was a complete success. A critical vulnerability was identified through systematic reconnaissance and successfully exploited using the Metasploit Framework, resulting in a full system compromise with root access.
+
+![Successful Exploitation and Post-Exploitation Commands](./images/control-after.jpg)
 
 ## Core Competencies Demonstrated
 
