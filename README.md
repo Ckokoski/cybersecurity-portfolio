@@ -21,6 +21,7 @@ Below is a collection of projects demonstrating my practical, hands-on cybersecu
 * Qualys SSL Labs
 
 #### [Project 2: Web Application Vulnerability Scan & Remediation](Project-2-WebApp-Vulnerability-Scan.md)
+
 **Description:** Conducted a dynamic application security test (DAST) using OWASP ZAP. Identified a missing Content Security Policy (CSP) header, troubleshooted WAF and plugin blocks, and remediated the finding by deploying a custom PHP snippet.
 
 **Skills Demonstrated:**
@@ -32,7 +33,8 @@ Below is a collection of projects demonstrating my practical, hands-on cybersecu
 
 ### Offense (Red Team) & Penetration Testing
 
-####[Project 3: Network Penetration Test](https://github.com/Ckokoski/cybersecurity-portfolio/blob/main/Project%203-Network-Penetration%20Test.md)
+#### [Project 3: Network Penetration Test](Project-3-Network-Penetration-Test.md)
+
 **Description:** Conducted a network penetration test against a Metasploitable2 server. Used Nmap for reconnaissance to identify a vulnerable FTP service and exploited it with the Metasploit Framework to gain root-level system access.
 
 **Skills Demonstrated:**
