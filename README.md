@@ -30,6 +30,17 @@ Below is a collection of projects demonstrating my practical, hands-on cybersecu
 * Technical Remediation (PHP)
 * Verification
 
+## Offense (Red Team) & Penetration Testing
+
+[Project 3: Network Penetration Test](https://github.com/Ckokoski/cybersecurity-portfolio/blob/main/Project%203-Network-Penetration%20Test.md)
+*Description:* Conducted a network penetration test against a Metasploitable2 server. Used Nmap for reconnaissance to identify a vulnerable FTP service and exploited it with the Metasploit Framework to gain root-level system access.
+*Skills Demonstrated:*
+- Penetration Testing Methodology
+- Reconnaissance (Nmap)
+- Vulnerability Identification
+- Exploitation (Metasploit)
+- Post-Exploitation
+
 *(More projects, including offensive security exercises, will be added here as they are completed.)*
 
 ---
