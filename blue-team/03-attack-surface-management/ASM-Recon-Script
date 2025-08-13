@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# This script automates the first steps of finding a company's
+# potential weak points from the outside.
+
+# --- The Recipe Steps ---
+
+# 1. Ask Amass to find all the "front doors" (subdomains) for the website.
+#    Think of this as finding every possible entrance to a giant building.
+echo "Finding subdomains..."
+amass enum -d $1 -o subdomains.txt
+
+# 2. Use a tool called 'httpx' to check which doors are unlocked (live websites).
+#    We're only interested in the entrances that actually work.
+echo "Checking for live websites..."
+cat subdomains.txt | httpx -o live_hosts.txt
+
+# 3. Use a tool called 'Nuclei' to jiggle the handles of the unlocked doors.
+#    Nuclei has a list of known simple problems, and it checks for them automatically.
+echo "Scanning for known issues with Nuclei..."
+nuclei -l live_hosts.txt -o nuclei_results.txt
+
+echo "All done! Your results are in the text files."
