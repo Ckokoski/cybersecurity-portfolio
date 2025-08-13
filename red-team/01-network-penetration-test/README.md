@@ -1,4 +1,4 @@
-# Project 3: Network Penetration Test
+# Project 1: Network Penetration Test
 
 ## Executive Summary
 
