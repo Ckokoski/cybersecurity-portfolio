@@ -20,7 +20,7 @@ Below is a collection of projects demonstrating my practical, hands-on cybersecu
 * Nmap
 * Qualys SSL Labs
 
-#### [Project 2: Web Application Vulnerability Scan & Remediation](Project-2-WebApp-Vulnerability-Scan.md)
+#### [Project 2: Web Application Vulnerability Scan & Remediation](blue-team/02-webapp-vulnerability-scan/README.md)
 
 **Description:** Conducted a dynamic application security test (DAST) using OWASP ZAP. Identified a missing Content Security Policy (CSP) header, troubleshooted WAF and plugin blocks, and remediated the finding by deploying a custom PHP snippet.
 
