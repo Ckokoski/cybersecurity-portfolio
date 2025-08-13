@@ -9,7 +9,7 @@ Below is a collection of projects demonstrating my practical, hands-on cybersecu
 
 ### Defense (Blue Team) & System Hardening
 
-#### [Project 1: Live Web Application Security Audit & Hardening](🔵-blue-team/01-webapp-audit/README.md)
+#### [Project 1: Live Web Application Security Audit & Hardening](blue-team/01-webapp-audit/README.md)
 **Description:** Performed a full "Scan -> Remediate -> Verify" lifecycle audit on a live web server. Used Nmap and Qualys SSL Labs to identify vulnerabilities, analyzed results, and diagnosed a complex server misconfiguration that was not apparent to the hosting provider's support team.
 
 **Skills Demonstrated:**
