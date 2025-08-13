@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Exit immediately if a command fails.
+set -e
+
 # This script automates the first steps of finding a company's
 # potential weak points from the outside.
 
@@ -8,7 +11,8 @@
 # 1. Ask Amass to find all the "front doors" (subdomains) for the website.
 #    Think of this as finding every possible entrance to a giant building.
 echo "Finding subdomains..."
-amass enum -d $1 -o subdomains.txt
+# Using "$1" in quotes prevents errors if the input has spaces.
+amass enum -d "$1" -o subdomains.txt
 
 # 2. Use a tool called 'httpx' to check which doors are unlocked (live websites).
 #    We're only interested in the entrances that actually work.
