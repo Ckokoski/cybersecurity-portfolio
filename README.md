@@ -33,7 +33,7 @@ Below is a collection of projects demonstrating my practical, hands-on cybersecu
 
 ### Offense (Red Team) & Penetration Testing
 
-#### [Project 3: Network Penetration Test](Project-3-Network-Penetration-Test.md)
+#### [Project 1: Network Penetration Test](red-team/01-network-penetration-test/README.md)
 
 **Description:** Conducted a network penetration test against a Metasploitable2 server. Used Nmap for reconnaissance to identify a vulnerable FTP service and exploited it with the Metasploit Framework to gain root-level system access.
 
