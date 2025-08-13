@@ -31,6 +31,18 @@ Below is a collection of projects demonstrating my practical, hands-on cybersecu
 * Technical Remediation (PHP)
 * Verification
 
+#### [Project 3: Attack Surface Management (ASM)](blue-team/03-attack-surface-management/README.md)
+
+**Description:** Developed and executed a custom Bash script to perform automated reconnaissance against a large-scale public target. The script systematically discovers subdomains, identifies live hosts, and scans for known vulnerabilities to map the potential attack surface.
+
+**Skills Demonstrated:**
+* Attack Surface Management (ASM)
+* Automated Reconnaissance
+* Scripting (Bash)
+* Asset Discovery (amass)
+* Live Host Probing (httpx)
+* Vulnerability Scanning (nuclei)
+
 ### Offense (Red Team) & Penetration Testing
 
 #### [Project 1: Network Penetration Test](red-team/01-network-penetration-test/README.md)
@@ -44,7 +56,7 @@ Below is a collection of projects demonstrating my practical, hands-on cybersecu
 - Exploitation (Metasploit)
 - Post-Exploitation
 
-*(More projects, including offensive security exercises, will be added here as they are completed.)*
+*(More projects, including more advanced defensive and offensive security exercises, will be added here as they are completed.)*
 
 ---
 
