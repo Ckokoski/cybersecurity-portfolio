@@ -1,6 +1,6 @@
 # Christopher Kokoski's Cybersecurity Portfolio
 
-This portfolio contains hands-on projects in vulnerability analysis, system hardening, and threat mitigation. I am building a foundation in defensive security (Blue Team) to become a more effective offensive operator (Red Teamer). This repository serves as a living document of my skills, methodologies, and progress.
+This portfolio showcases hands-on applications of cybersecurity principles in vulnerability analysis, system hardening, and threat mitigation. The projects documented here reflect a practitioner's approach to security, emphasizing that a robust understanding of defense (Blue Team) is critical to executing effective offensive (Red Team) operations.
 
 ---
 
