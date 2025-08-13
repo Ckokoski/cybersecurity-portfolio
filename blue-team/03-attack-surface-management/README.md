@@ -18,3 +18,4 @@ This project is a simple Bash script that automates the initial phase of an ASM 
 
 Here is a screenshot of the script running against Netflix's public infrastructure:
 
+![Netflix ASM Results](images/Netflix%20ASM.png)
