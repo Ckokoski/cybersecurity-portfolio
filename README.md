@@ -56,6 +56,17 @@ Below is a collection of projects demonstrating my practical, hands-on cybersecu
 - Exploitation (Metasploit)
 - Post-Exploitation
 
+#### [Project 2: SQL Injection to Bypass Authentication](https://github.com/Ckokoski/cybersecurity-portfolio/blob/main/red-team/02-sql-injection-auth-bypass/README.md)
+
+**Description:** Successfully identified and exploited a critical SQL injection vulnerability on the login form of the OWASP Juice Shop web application. The exploit bypassed authentication mechanisms, resulting in a full privilege escalation from an unauthenticated user to a high-privileged administrator account.
+
+**Skills Demonstrated:**
+- Web Application Pentesting
+- SQL Injection (SQLi)
+- Authentication Bypass
+- Vulnerability Analysis
+- Privilege Escalation
+
 *(More projects, including more advanced defensive and offensive security exercises, will be added here as they are completed.)*
 
 ---
