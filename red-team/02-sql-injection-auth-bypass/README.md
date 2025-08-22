@@ -1,4 +1,6 @@
-## Project 2: SQL Injection to Bypass Authentication
+## Project 2: Red Team Operations - A Practical Exploitation of the OWASP Top 10
+
+### **Vulnerability 1: SQL Injection to Bypass Authentication**
 
 **Description:** Conducted a web application penetration test against the OWASP Juice Shop, a deliberately insecure web application. The primary objective was to identify and exploit an authentication vulnerability to gain unauthorized access to a privileged account.
 
@@ -12,8 +14,25 @@
 * **Privilege Escalation:** Escalated from an unauthenticated user to a full-access administrator.
 * **Evidence Curation:** Captured and documented evidence of successful exploitation for reporting.
 
-### Evidence of Access:
+### Evidence:
 
 The following screenshot shows the success message displayed immediately after the malicious payload was submitted, confirming a successful login as the administrator.
 
 **![Admin Login Success](images/admin-login.png)**
+
+### **Vulnerability 2: Reflected Cross-Site Scripting (XSS)**
+
+**Description:** Successfully executed a Reflected XSS attack by injecting a malicious JavaScript payload via an `<iframe>` tag into the product search bar. The server failed to properly sanitize the input, reflecting the script back to the browser, where it was executed.
+
+**Vulnerability Analysis:** An attacker could use this vulnerability to steal session cookies from other users, perform actions on their behalf, or redirect them to a malicious website.
+
+**Steps to Reproduce:**
+    1. Navigated to the main shop page.
+    2. Entered the payload `<iframe src="javascript:alert('XSS')"></iframe>` into the search input field.
+    3. Submitted the search query.
+    4. Observed a JavaScript alert box pop up, confirming script execution.
+
+### Skills Demonstrated:
+
+### Evidence:
+
