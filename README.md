@@ -56,16 +56,21 @@ Below is a collection of projects demonstrating my practical, hands-on cybersecu
 - Exploitation (Metasploit)
 - Post-Exploitation
 
-#### [Project 2: SQL Injection to Bypass Authentication](https://github.com/Ckokoski/cybersecurity-portfolio/blob/main/red-team/02-sql-injection-auth-bypass/README.md)
+#### [Project 2: Exploiting the OWASP Top 10](https://github.com/Ckokoski/cybersecurity-portfolio/blob/main/red-team/02-OWASP-Top-10-Exploitations/README.md)
 
-**Description:** Successfully identified and exploited a critical SQL injection vulnerability on the login form of the OWASP Juice Shop web application. The exploit bypassed authentication mechanisms, resulting in a full privilege escalation from an unauthenticated user to a high-privileged administrator account.
+**Description:** Conducted a comprehensive security assessment of the OWASP Juice Shop web application. Systematically identified and exploited the full range of the OWASP Top 10 vulnerabilities, demonstrating a practical understanding of the most critical security risks facing modern web applications.
 
 **Skills Demonstrated:**
-- Web Application Pentesting
-- SQL Injection (SQLi)
-- Authentication Bypass
-- Vulnerability Analysis
-- Privilege Escalation
+ - **Web Application Pentesting:** Executing the end-to-end testing process, from reconnaissance to exploitation and privilege escalation.
+- **Vulnerability Analysis:** Identifying and assessing security weaknesses in application logic, configuration, and design.
+- **Injection Flaw Exploitation:** Crafting and executing payloads for various injection types, including:
+  - SQL Injection (SQLi)
+  - Cross-Site Scripting (XSS)
+- **Authentication & Session Management Testing:** Identifying weaknesses in user identity verification, including authentication bypass and session hijacking.
+- **Broken Access Control Exploitation:** Discovering and leveraging flaws like Insecure Direct Object References (IDOR) to access unauthorized data and functions.
+- **Security Misconfiguration Identification:** Detecting insecure server and application settings, such as default credentials, verbose error messages, and directory listing.
+- **Sensitive Data Exposure Analysis:** Identifying cryptographic failures and instances where sensitive data (PII, credentials) is improperly stored or transmitted.
+- **Server-Side Request Forgery (SSRF):** Forcing the server to make unintended requests to internal or external resources.
 
 *(More projects, including more advanced defensive and offensive security exercises, will be added here as they are completed.)*
 
