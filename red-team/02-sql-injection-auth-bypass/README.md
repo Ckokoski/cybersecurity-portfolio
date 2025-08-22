@@ -32,7 +32,17 @@ The following screenshot shows the success message displayed immediately after t
     3. Submitted the search query.
     4. Observed a JavaScript alert box pop up, confirming script execution.
 
-### Skills Demonstrated:
+**Skills Demonstrated:**
+* Web Application Pentesting
+* Cross-Site Scripting (XSS)
+* Input Validation Bypass
+* Client-Side Attacks
+* Payload Crafting
 
-### Evidence:
+**Evidence of Exploitation:**
+The following screenshots demonstrate the successful exploit. The first shows the malicious payload entered into the search bar, and the second shows the resulting JavaScript alert box executing on the page, confirming the XSS vulnerability.
+
+![XSS Payload in Search Bar](./images/xss-payload.png)
+
+![XSS Pop-up Confirmation](./images/xss-result.png)
 
