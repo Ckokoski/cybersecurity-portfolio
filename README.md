@@ -56,7 +56,7 @@ Below is a collection of projects demonstrating my practical, hands-on cybersecu
 - Exploitation (Metasploit)
 - Post-Exploitation
 
-#### [Project 2: Exploiting the OWASP Top 10](red-team/02-OWASP-Top-10-Exploitations/README.md)
+#### [Project 2: Exploiting the OWASP Top 10](red-team/O2-OWASP-Top-10-Exploitations/README.md)
 
 **Description:** Conducted a comprehensive security assessment of the OWASP Juice Shop web application. Systematically identified and exploited the full range of the OWASP Top 10 vulnerabilities, demonstrating a practical understanding of the most critical security risks facing modern web applications.
 
